@@ -1,0 +1,128 @@
+body {
+  background-color: #C7DCD5;
+  margin: 8px;
+}
+
+/* Add a black background color to the top navigation bar */
+
+
+.navigation {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo {
+  display: inline-flex;
+  align-content: center;
+  margin: 0px 48px;
+
+}
+
+/* Style the links inside the navigation bar */
+.navigation a {
+  color: #3C534C;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: bold;
+
+}
+
+
+
+/* Style the search box inside the navigation bar */
+.navigation input[type=text] {
+  float: right;
+  padding: 8px;
+  margin-right: 16px;
+  margin-left:16px;
+  font-size: 14px;
+  border-radius: 20px;
+  border-color: #C7DCD5;
+}
+
+
+
+.navigation button {
+  background-color: #3C534C;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  font-family: Arial;
+  cursor: pointer;
+}
+
+.shoppingcart{
+  display: flex;
+  line-height:34px;
+  font-family: Arial;
+  font-size: 16px;
+  color:#3C534C;
+  margin: 12px;
+
+}
+
+
+
+.main {
+  display: inline-flex;
+  padding:100px 200px;
+}
+
+.right {
+  display: block;
+  line-height:40px;
+  padding: 50px;
+  vertical-align: middle;
+
+}
+
+h1 {
+  font-family: "PT Serif";
+  font-weight:bold;
+  font-size: 60px;
+  color: #3C534C;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #FFB89A 65%);
+  display: inline;
+
+}
+
+h4{
+  font-family: Arial;
+  font-size: 22px;
+  color: #3C534C;
+  text-align: center;
+
+}
+
+.right button{
+  background-color: #3C534C;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  font-family: Arial;
+  font-weight: bold;
+  margin:0 92px;
+  cursor: pointer;
+
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+}
+
+.footer a {
+  padding: 0 10px;
+  font-family: Arial;
+  color: #3C534C;
+}

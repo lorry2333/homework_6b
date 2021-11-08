@@ -1,0 +1,263 @@
+body {
+  background-color: #C7DCD5;
+  margin: 8px;
+}
+
+/* Add a black background color to the top navigation bar */
+
+
+.navigation {
+  display: inline-flex;
+  align-items: center;
+
+}
+
+.logo {
+  display: inline-flex;
+  align-content: center;
+  margin: 0px 48px;
+
+
+}
+
+/* Style the links inside the navigation bar */
+.navigation a {
+  color: #3C534C;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: bold;
+
+}
+
+
+
+/* Style the search box inside the navigation bar */
+.navigation input[type=text] {
+  float: right;
+  padding: 8px;
+  margin-right: 16px;
+  margin-left:16px;
+  font-size: 14px;
+  border-radius: 20px;
+  border-color: #C7DCD5;
+}
+
+.navigation button {
+  background-color: #3C534C;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  font-family: Arial;
+
+}
+
+.shoppingcart{
+  display: flex;
+  line-height:34px;
+  font-family: Arial;
+  font-size: 16px;
+  color:#3C534C;
+  margin: 12px;
+
+}
+
+h5{
+  color: #3C534C;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: bold;
+  margin: 0;
+}
+.filter{
+  display:flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 50px 100px 0 100px;
+
+}
+
+.filter button{
+  background-color: #C7DCD5;
+  border: none;
+  color:#3C534C;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.productcard i{
+  color: #3C534C;
+}
+
+.productcard{
+  line-height: 26px;
+  margin: 64px 48px 0 0;
+}
+
+.productline1{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 100px 0px 100px;
+  flex-wrap: wrap;
+
+}
+
+.itemcard{
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  height:180px;
+  background-color:white;
+  padding: 20px;
+  margin-bottom: 20px;
+
+}
+
+.itemcard button{
+  margin:80px 20px;
+  background-color: white;
+  border:none;
+  text-decoration: underline;
+  font-family:Arial;
+  font-size: 16px;
+  color: #3C534C;
+  cursor: pointer;
+}
+
+.itemdesc h5{
+  padding: 10px 0 0 0;
+  font-size:20px;
+}
+
+.itemdesc li{
+  font-family:Arial;
+  font-size: 14px;
+  color: #3C534C;
+  margin: 10px;
+  list-style-type: none;
+  padding:2px;
+  margin: 14px 0 0 0;
+}
+
+.itemdesc span{
+  margin-left: 4px;
+}
+
+.ordersummary span{
+  line-height: 30px;
+  list-style-type: none;
+  font-family:Arial;
+  font-size: 18px;
+  color: #3C534C;
+
+}
+
+
+
+
+.ordersummary{
+  background-color:white;
+  display: inline-flex;
+  text-align:center;
+  align-items: center;
+  vertical-align: middle;
+  margin: 30px;
+}
+
+.summarybox h5{
+  margin-bottom: 30px;
+}
+
+.summarybox{
+  background-color: white;
+  display: block;
+  text-align: center;
+  width:340px;
+  padding: 40px 0;
+  height: 300px;
+  margin-top: 50px;
+}
+
+
+
+
+
+
+.ordersummary h5{
+  font-size: 22px;
+
+}
+
+.orderdetail{
+  text-align:left;
+
+}
+.summarynumber{
+  background-color: white;
+}
+
+
+.checkout button{
+  background-color: #3C534C;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  font-family: Arial;
+}
+
+.itemcardcontainer{
+  display: block;
+  padding: 0px 100px 60px 100px;
+  justify-content: space-around;
+}
+
+.Wishlistcardcontainer{
+  display: block;
+  margin: 0 100px 60px;
+  justify-content: space-around;
+}
+
+.shoppingCartInfo{
+  display:flex;
+  padding: 20px 100px 60px 100px;
+  justify-content: space-around;
+}
+
+
+#cartlistnum {
+  font-family:Arial;
+  font-size: 20px;
+  color: #3C534C;
+  width:500px;
+  text-align:left;
+
+}
+
+
+#wishlistnum {
+  font-family:Arial;
+  font-size: 20px;
+  color: #3C534C;
+  width:500px;
+  text-align:left;
+}
+
+.wishlistarea{
+  display:block;
+  padding: 20px 100px 60px 100px;
+  justify-content: space-around;
+}

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./stylepage4.css">
+    <title>Muddy Paws Shopping</title>
+
+    <script src="https://kit.fontawesome.com/128a7605fc.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+
+    <div class="navigation">
+      <div class="logo">
+        <img width="180" height="50" src="image/logo.png" alt="Muddy Paws Logo" border="0">
+      </div>
+
+      <div class="catogry">
+        <a href="#category" style="text-decoration: underline;">All </a>
+        <a href="#category">Cat </a>
+        <a href="#category">Dog </a>
+        <a href="#category">Accessories</a>
+        <a href="#category">Food Storage</a>
+      </div>
+
+      <div class="search">
+        <input type="text" placeholder="Search.." style="width: 400px; height: 24px">
+      </div>
+
+      <div class="signin">
+        <button type="button">Sign In</button>
+      </div>
+
+      <div class="shoppingcart">
+        <i class="fas fa-shopping-cart fa-2x" style="color:#3C534C"></i> <span id="cartnum">(0)</span>
+      </div>
+
+    </div>
+
+
+
+
+
+    <hr width=100% color="#3C534C">
+
+
+
+    <!-- shoppong cart area-->
+
+
+
+  <div class="shoppingCartInfo">
+
+
+    <div class="itemcardcontainer">
+
+      <h3 id="cartlistnum">
+        Items in your shopping cart
+      </h3>
+
+
+
+      <!--product item card template-->
+
+      <template id ="cart-item-template">
+
+
+       <div class="itemcard">
+         <img src="image/8.png" alt="portable pet bag" width='180px' height='180px'>
+         <div class="itemdesc">
+          <h5>Portable Pet Bag</h5>
+          <h5>$23</h5>
+          <li>color:<span id="itemcolor"> </span></li>
+          <li>size:<span id="itemsize"> </span></li>
+          <li>quantity:<span id="itemquantity"> </span></li>
+         </div>
+         <div id="btn-remove">
+          <button  type="button">Remove</button>
+         </div>
+        </div>
+
+      </template>
+
+  </div>
+
+
+    <!--order summary card-->
+   <div class="summaryboxcontainer">
+
+
+   <div class="summarybox">
+
+
+    <div>
+      <h5>
+        Order Summary
+      </h5>
+    </div>
+
+          <div class="ordersummary">
+
+              <div class="orderdetail">
+                <span>Items</span><br>
+                <span>Shipping</span><br>
+                <span>Tax</span><br>
+
+                <hr width=220px; color="#3C534C">
+                <span>Total</span>
+
+              </div>
+
+              <div class="summarynumber">
+
+              <span id=itemprice>0</span><br>
+              <span>free</span><br>
+              <span id=totaltax>0</span><br>
+             <hr width=100%; color="#3C534C">
+
+              <span id=totalprice>0</span>
+
+                </div>
+
+
+       </div>
+
+              <div class="checkout">
+                <button type="button">Check Out</button>
+              </div>
+
+
+            </div>
+
+             </div>
+
+              </div>
+
+   <!--Wish List-->
+
+  <div class="wishlistarea">
+
+
+
+
+
+<div class="WishListInfo">
+
+
+  <div class="Wishlistcardcontainer">
+
+    <h3 id="wishlistnum">
+      Items in your Wish List
+    </h3>
+
+
+    <!--Wish List item card template-->
+
+    <template id ="cart-item-template">
+
+
+     <div class="itemcard">
+       <img src="image/8.png" alt="portable pet bag" width='180px' height='180px'>
+       <div class="itemdesc">
+        <h5>Portable Pet Bag</h5>
+        <h5>$23</h5>
+        <li>color:<span id="itemcolor"> </span></li>
+        <li>size:<span id="itemsize"> </span></li>
+        <li>quantity:<span id="itemquantity"> </span></li>
+       </div>
+       <div id="btn-remove">
+        <button  type="button">Remove</button>
+       </div>
+      </div>
+
+    </template>
+
+    </div>
+
+
+      </div>
+
+    </div>
+
+
+
+
+    <!--recommended product list-->
+
+    <div class="filter">
+      <h5>
+        Recommended to you
+      </h5>
+      <button type="button">Filter v </button>
+    </div>
+
+    <hr width=87% color="#3C534C">
+
+
+
+    <div class='productline1'>
+
+
+      <div class="productcard">
+        <img src="image/1.png" alt="cat harness" width='200px' height='200px'>
+
+        <h5>Cat Harness for Hiking</h5>
+        <h5 class="price">$23</h5>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+
+      </div>
+      <div class="productcard">
+        <img src="image/2.png" alt="dog harness" width='200px' height='200px'>
+
+        <h5>Dog Harness for Hiking</h5>
+        <h5 class="price">$23</h5>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+
+      </div>
+
+      <div class="productcard">
+        <img src="image/3.png" alt="cat toy" width='200px' height='200px'>
+
+        <h5>Cat Stick Toy </h5>
+        <h5 class="price">$23</h5>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+
+      </div>
+
+      <div class="productcard">
+        <img src="image/4.png" alt="dog toy" width='200px' height='200px'>
+
+        <h5>Dog Stick Toy</h5>
+        <h5 class="price">$23</h5>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+
+      </div>
+
+
+
+
+
+
+
+    </div>
+
+
+    <script src ="./shoppingcart.js"> </script>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Muddy Paws Shopping</title>
+    <link rel="stylesheet" href="./stylepage3.css">
+    <script src="https://kit.fontawesome.com/128a7605fc.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <div class="logo">
+        <img width="180" height="50" src="image/logo.png" alt="Muddy Paws Logo" border="0">
+      </div>
+
+      <div class="catogry">
+        <a href="#category">All </a>
+        <a href="#category">Cat </a>
+        <a href="#category">Dog </a>
+        <a href="#category">Accessories</a>
+        <a href="#category">Food Storage</a>
+      </div>
+
+      <div class="search">
+        <input type="text" placeholder="Search.." style="width: 400px; height: 24px">
+      </div>
+
+      <div class="signin">
+        <button type="button">Sign In</button>
+      </div>
+
+      <div class="shoppingcart">
+        <i class="fas fa-shopping-cart fa-2x" style="color:#3C534C"></i> <span id="cartnum">(0)</span>
+      </div>
+
+    </div>
+
+    <hr width=100% color="#3C534C">
+
+
+    <!--product breachcumbline-->
+    <div class="breadcrumb">
+      <h5>
+        All > Portable Pet Bag
+      </h5>
+    </div>
+
+    <!--product picture-->
+    <div class="main">
+
+      <div class="productpicselection">
+
+
+        <div class="productpic">
+          <i class="fas fa-angle-left" style="font-size:32px"></i>
+          <img src="image/bag.png" alt="a yellow pet bag" border="0" width="500" height="420">
+          <i class="fas fa-angle-right" style="font-size:32px"></i>
+
+        </div>
+
+        <div class="circles">
+          <i class="fas fa-circle" style="font-size: 12px"></i>
+          <i class="far fa-circle" style="font-size: 12px"></i>
+          <i class="far fa-circle" style="font-size: 12px"></i>
+          <i class="far fa-circle" style="font-size: 12px"></i>
+          <i class="far fa-circle" style="font-size: 12px"></i>
+          <i class="far fa-circle" style="font-size: 12px"></i>
+        </div>
+
+      </div>
+
+      <div class="productdetail">
+        <h3>
+          Portable Pet Bag
+        </h3>
+        <hr width=100% color="#3C534C">
+        <h3>
+          $23
+        </h3>
+        <h5>
+          key features:
+        </h5>
+        <li>All-in-one way to walk your kitty</li>
+        <li>Lightweight breathable mesh</li>
+        <li>Easily put on and take off the step-in harness</li>
+        <li>Features adjustable sizing for a custom fit</li>
+        <li>Eye-catching colors</li>
+        <div class="colorselection">
+          <h5>
+            Color:
+          </h5>
+
+          <div class="colors" id="colorpick" onchange="showColorConfirm()">
+
+            <input type="radio" id="color1" value="Chill White" name="color"><label for="color1" style="background-color:#ffffff;" id="colorselect1" class="color"></label>
+
+            <input type="radio" id="color2" value="Mellow Pink" name="color"><label for="color2" style="background-color:#FFE0D3;" id="colorselect2" class="color"></label>
+            <input type="radio" id="color3" value="Fresh Green" name="color"><label for="color3" style="background-color:#B4CEC4;" id="colorselect3" class="color"></label>
+            <input type="radio" id="color4" value="Baby Blue" name="color"><label for="color4" style="background-color:#ECF5F5;" id="colorselect4" class="color"></label>
+            <input type="radio" id="color5" value="Sunshine Yellow" name="color"><label for="color5" style="background-color:#FFF0D1;" id="colorselect5" class="color"></label>
+          </div>
+
+        </div>
+
+        <div class="colorselectconfirm">
+        <span id="colorconfirm"> </span>
+        </div>
+
+        <div class="sizeselection">
+          <h5>
+            Size:
+          </h5>
+          <input type="radio" id="size1" value="S" name="size"><label for="size1">S</label>
+          <input type="radio" id="size2" value="M" name="size"><label for="size2">M</label>
+          <input type="radio" id="size3" value="L" name="size"><label for="size3">L</label>
+          <input type="radio" id="size4" value="XL" name="size"><label for="size4">XL</label>
+          <i class="fas fa-question-circle" style="color:#3C534C"></i>
+
+        </div>
+
+        <div class="quantityselection">
+          <h5>
+            Quantity:
+          </h5>
+          <select id="quantity">
+            <option value="1"> 1 </option>
+            <option value="2"> 2 </option>
+            <option value="3"> 3 </option>
+            <option value="4"> 4 </option>
+            <option value="5"> 5 </option>
+          </select>
+
+
+        </div>
+
+        <div class="buttongroup">
+
+        <div class="addtobag" id='addtobag'>
+          <button type="button">Add to Bag</button>
+        </div>
+
+        <div class="addtowishlist" id='addtowishlist'>
+          <button type="button">Add to Wish List</button>
+        </div>
+
+          </div>
+
+      </div>
+
+
+    </div>
+
+
+
+    <div class="detaildescription">
+
+      <p>
+        Details
+      </p>
+      <hr width=87% color="#3C534C">
+
+      <h6>
+        Take your feline friend on endless adventures with the Comfort Soft Adjustable Cat Harness and Leash. This two-in-one set features a breathable harness crafted in a lightweight mesh material that can easily be adjusted to best suit your cat. The style allows pressure to be evenly distributed across the neck and shoulders for a comfortable fit while the step-in design is quick to put on your kitty. Give your girl the freedom to roam up to six feet as she stands-out in a stylish color you both will paw-sitively love!
+
+      </h6>
+
+
+
+    </div>
+
+
+
+    <script src="./main.js"></script>
+
+
+
+
+
+  </body>
+
+</html>
